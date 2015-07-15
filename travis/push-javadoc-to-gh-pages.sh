@@ -112,6 +112,6 @@ if [[ "$invokeJavadoc" == true || "$invokeDoc" == true ]]; then
   echo -e "Pushing upstream to origin...\n"
   git push -fq origin gh-pages > /dev/null
 
-  echo -e "Successfully published documenetation to [gh-pages] branch.\n"
+  echo -e "Successfully published documentation to [gh-pages] branch.\n"
 
 fi
